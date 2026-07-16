@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this list, please cite it as below. For reproducible citations, cite a monthly release or commit permalink."
+title: "The Comprehensive List of AI Red Teaming Tools"
+abstract: "A curated, source-linked directory of open-source and commercial tools for adversarially testing AI systems, including LLMs, RAG pipelines, AI agents, and multimodal models. Includes a machine-readable catalog."
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-16"
+repository-code: "https://github.com/aglio-lab/ai-red-teaming-tools"
+url: "https://github.com/aglio-lab/ai-red-teaming-tools"
+license: CC0-1.0
+keywords:
+  - ai-red-teaming
+  - llm-security
+  - prompt-injection
+  - jailbreak
+  - adversarial-testing
+  - ai-safety
+  - agent-security
+  - generative-ai
+authors:
+  - name: "aglio-lab"
+    website: "https://github.com/aglio-lab"

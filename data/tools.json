@@ -1,0 +1,1571 @@
+{
+  "title": "The Comprehensive List of AI Red Teaming Tools",
+  "source": "https://github.com/aglio-lab/ai-red-teaming-tools",
+  "license": "CC0-1.0",
+  "last_verified": "2026-07-16",
+  "entry_count": 117,
+  "category_count": 14,
+  "categories": {
+    "Red Teaming Platforms and Frameworks": 9,
+    "LLM Vulnerability Scanners": 5,
+    "Jailbreak and Adversarial Attack Techniques": 9,
+    "Prompt Injection and Indirect Injection": 6,
+    "Classic Adversarial Robustness Libraries": 7,
+    "Commercial AI Red Teaming Platforms": 13,
+    "Guardrails and Runtime Defenses": 13,
+    "Agent Security and Tool-Use Testing": 6,
+    "Jailbreak and Robustness Benchmarks": 6,
+    "Safety, Harm, and Trustworthiness Benchmarks": 11,
+    "Attack Datasets and Prompt Corpora": 7,
+    "Model and ML Supply-Chain Security Scanning": 6,
+    "Standards, Taxonomies, and Vulnerability Databases": 7,
+    "Discontinued and Historical Tools": 12
+  },
+  "tools": [
+    {
+      "id": "red-teaming-platforms-and-frameworks--deepteam",
+      "name": "DeepTeam",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/confident-ai/deepteam",
+      "description": "DeepTeam is an open-source LLM red-teaming framework covering 120+ vulnerability types and 20+ single- and multi-turn attack methods, with mappings to OWASP, NIST AI RMF, and MITRE ATLAS. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://www.trydeepteam.com"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--pyrit",
+      "name": "PyRIT",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/microsoft/PyRIT",
+      "description": "PyRIT is Microsoft's Python Risk Identification Toolkit for generative AI, used by Microsoft's AI Red Team to automate adversarial probing with configurable targets, converters, scorers, and multi-turn orchestrators.",
+      "secondary_links": []
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--confident-ai",
+      "name": "Confident AI",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.confident-ai.com",
+      "description": "Confident AI is an AI quality platform for enterprise teams to standardize evals and observability, with native red teaming and AI governance gates that block releases failing vulnerability checks.",
+      "secondary_links": []
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--promptfoo-red-teaming",
+      "name": "promptfoo red teaming",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://www.promptfoo.dev/docs/red-team/",
+      "description": "promptfoo's MIT-licensed red-teaming module scans applications for injection, jailbreaks, data leakage, and authorization flaws. OpenAI announced an agreement to acquire Promptfoo in March 2026. GitHub · Announcement",
+      "secondary_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/promptfoo/promptfoo"
+        },
+        {
+          "label": "Announcement",
+          "url": "https://openai.com/index/openai-to-acquire-promptfoo/"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--garak",
+      "name": "garak",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/NVIDIA/garak",
+      "description": "garak, from NVIDIA, is a generative-AI red-teaming and vulnerability framework whose plugin architecture composes probes, generators, buffs, and detectors into automated attack runs. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2406.11036"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--giskard",
+      "name": "Giskard",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Giskard-AI/giskard-oss",
+      "description": "Giskard is an open-source testing library for LLM agents and ML models whose scan automatically detects vulnerabilities including prompt injection, harmful content, hallucination, and sycophancy.",
+      "secondary_links": []
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--moonshot",
+      "name": "Moonshot",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/aiverify-foundation/moonshot",
+      "description": "Moonshot, from the AI Verify Foundation, is a modular toolkit that combines benchmarking and red teaming of LLM applications behind a single API, CLI, and web UI.",
+      "secondary_links": []
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--rogue",
+      "name": "Rogue",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://github.com/qualifire-dev/rogue",
+      "description": "Rogue is a source-available AI-agent evaluation and red-teaming platform from Qualifire (Rogue Security); its proprietary license permits personal and internal use but requires separate licensing for commercial hosting.",
+      "secondary_links": []
+    },
+    {
+      "id": "red-teaming-platforms-and-frameworks--inspect-ai",
+      "name": "Inspect AI",
+      "artifact_type": "platform-or-framework",
+      "category": "Red Teaming Platforms and Frameworks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "description": "Inspect AI, from the UK AI Security Institute, is an evaluation framework whose solvers, scorers, and sandboxed tool use support safety and adversarial evaluations, including agentic attack scenarios. Docs",
+      "secondary_links": [
+        {
+          "label": "Docs",
+          "url": "https://inspect.aisi.org.uk"
+        }
+      ]
+    },
+    {
+      "id": "llm-vulnerability-scanners--agentic-security",
+      "name": "Agentic Security",
+      "artifact_type": "tool",
+      "category": "LLM Vulnerability Scanners",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/msoedov/agentic_security",
+      "description": "Agentic Security is an open-source LLM vulnerability scanner and red-teaming CLI that fuzzes endpoints with jailbreak datasets, multi-step attacks, and stress tests.",
+      "secondary_links": []
+    },
+    {
+      "id": "llm-vulnerability-scanners--fuzzyai",
+      "name": "FuzzyAI",
+      "artifact_type": "tool",
+      "category": "LLM Vulnerability Scanners",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/cyberark/FuzzyAI",
+      "description": "FuzzyAI, from CyberArk, fuzzes LLM APIs with strategies including adversarial suffixes, genetic search, and encoding to identify jailbreaks and guardrail bypasses.",
+      "secondary_links": []
+    },
+    {
+      "id": "llm-vulnerability-scanners--prompt-fuzzer",
+      "name": "Prompt Fuzzer",
+      "artifact_type": "tool",
+      "category": "LLM Vulnerability Scanners",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/prompt-security/ps-fuzz",
+      "description": "Prompt Fuzzer, from Prompt Security (now a SentinelOne company), tests system prompts with prompt-injection and jailbreak attacks and scores the resulting resilience.",
+      "secondary_links": []
+    },
+    {
+      "id": "llm-vulnerability-scanners--promptmap",
+      "name": "promptmap",
+      "artifact_type": "tool",
+      "category": "LLM Vulnerability Scanners",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/utkusen/promptmap",
+      "description": "promptmap is a prompt-injection scanner that tests a custom LLM application's system prompt with rule-based attack cases and reports which ones leak or override it.",
+      "secondary_links": []
+    },
+    {
+      "id": "llm-vulnerability-scanners--spikee",
+      "name": "spikee",
+      "artifact_type": "tool",
+      "category": "LLM Vulnerability Scanners",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/ReversecLabs/spikee",
+      "description": "spikee, from Reversec Labs, is a modular toolkit for testing LLMs, guardrails, and applications against prompt injection and jailbreak attacks and for generating targeted test datasets.",
+      "secondary_links": []
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--llm-attacks-gcg",
+      "name": "llm-attacks (GCG)",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/llm-attacks/llm-attacks",
+      "description": "llm-attacks is the reference implementation of Greedy Coordinate Gradient (GCG), which optimizes universal, transferable adversarial suffixes that jailbreak aligned models. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2307.15043"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--pair",
+      "name": "PAIR",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/patrickrchao/JailbreakingLLMs",
+      "description": "PAIR (Prompt Automatic Iterative Refinement) uses attacker, target, and judge models to iteratively refine jailbreak prompts in black-box settings. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2310.08419"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--tap",
+      "name": "TAP",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/RICommunity/TAP",
+      "description": "TAP (Tree of Attacks with Pruning) extends PAIR with tree-of-thought search and pruning to jailbreak black-box models query-efficiently. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2312.02119"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--autodan",
+      "name": "AutoDAN",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/SheltonLiu-N/AutoDAN",
+      "description": "AutoDAN generates stealthy, human-readable jailbreak prompts via a hierarchical genetic algorithm, evading perplexity-based filters that catch gradient suffixes. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2310.04451"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--gptfuzz",
+      "name": "GPTFuzz",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/sherdencooper/GPTFuzz",
+      "description": "GPTFuzz is a black-box jailbreak fuzzer that mutates human-written seed templates and uses a judge model to grow an attack corpus automatically. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2309.10253"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--easyjailbreak",
+      "name": "EasyJailbreak",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/EasyJailbreak/EasyJailbreak",
+      "description": "EasyJailbreak provides a common interface for implementing, constructing, and evaluating multiple jailbreak methods. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2403.12171"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--deepinception",
+      "name": "DeepInception",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/tmlr-group/DeepInception",
+      "description": "DeepInception is a prompt-only jailbreak that nests a model inside layered fictional scenarios to erode its safety guardrails. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2311.03191"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--promptinject",
+      "name": "PromptInject",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/agencyenterprise/PromptInject",
+      "description": "PromptInject is the framework accompanying the \"Ignore Previous Prompt\" paper, quantifying goal hijacking and prompt leaking via mask-based iterative adversarial prompt composition. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2211.09527"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-adversarial-attack-techniques--artprompt",
+      "name": "ArtPrompt",
+      "artifact_type": "tool",
+      "category": "Jailbreak and Adversarial Attack Techniques",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/uw-nsl/ArtPrompt",
+      "description": "ArtPrompt is an ASCII-art-based jailbreak that hides unsafe words in text art to bypass token-level safety filters. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2402.11753"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection-and-indirect-injection--open-prompt-injection",
+      "name": "Open-Prompt-Injection",
+      "artifact_type": "tool",
+      "category": "Prompt Injection and Indirect Injection",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/liu00222/Open-Prompt-Injection",
+      "description": "Open-Prompt-Injection is a research framework implementing standardized prompt-injection attacks and defenses for reproducible evaluation. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2310.12815"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection-and-indirect-injection--bipia",
+      "name": "BIPIA",
+      "artifact_type": "tool",
+      "category": "Prompt Injection and Indirect Injection",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/microsoft/BIPIA",
+      "description": "BIPIA, from Microsoft, benchmarks indirect prompt injection across email QA, web QA, table QA, summarization, and code QA, with black-box and white-box defense baselines. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2312.14197"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection-and-indirect-injection--houyi",
+      "name": "HouYi",
+      "artifact_type": "tool",
+      "category": "Prompt Injection and Indirect Injection",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/LLMSecurity/HouYi",
+      "description": "HouYi is a black-box prompt-injection attack framework that systematically composes a framework, separator, and disruptor to hijack LLM-integrated applications. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2306.05499"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection-and-indirect-injection--tensor-trust",
+      "name": "Tensor Trust",
+      "artifact_type": "tool",
+      "category": "Prompt Injection and Indirect Injection",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/HumanCompatibleAI/tensor-trust",
+      "description": "Tensor Trust is a prompt-injection attack-and-defense game from UC Berkeley whose gameplay produced a public dataset of human-crafted injections and defenses. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2311.01011"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection-and-indirect-injection--deepset-prompt-injections",
+      "name": "deepset prompt-injections",
+      "artifact_type": "tool",
+      "category": "Prompt Injection and Indirect Injection",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/deepset/prompt-injections",
+      "description": "The deepset prompt-injections dataset is an Apache-2.0 labeled corpus of injection and benign prompts for training and evaluating injection classifiers.",
+      "secondary_links": []
+    },
+    {
+      "id": "prompt-injection-and-indirect-injection--lakera-pint-benchmark",
+      "name": "Lakera PINT Benchmark",
+      "artifact_type": "tool",
+      "category": "Prompt Injection and Indirect Injection",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/lakeraai/pint-benchmark",
+      "description": "PINT (Prompt Injection Test), from Lakera, provides a dataset and harness for evaluating prompt-injection detectors without training on the test set.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--adversarial-robustness-toolbox",
+      "name": "Adversarial Robustness Toolbox",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+      "description": "ART, from the Linux Foundation AI & Data (originally IBM), provides evasion, poisoning, extraction, and inference attacks and defenses for multiple machine-learning frameworks and data modalities.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--foolbox",
+      "name": "Foolbox",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/bethgelab/foolbox",
+      "description": "Foolbox creates adversarial examples against PyTorch, TensorFlow, and JAX models using gradient-based, decision-based, and score-based attacks.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--cleverhans",
+      "name": "CleverHans",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/cleverhans-lab/cleverhans",
+      "description": "CleverHans provides reference adversarial-example attack implementations for benchmarking model robustness.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--textattack",
+      "name": "TextAttack",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/QData/TextAttack",
+      "description": "TextAttack is a framework for adversarial attacks, data augmentation, and adversarial training in NLP, with many recipe-based text attacks.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--openattack",
+      "name": "OpenAttack",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/thunlp/OpenAttack",
+      "description": "OpenAttack, from THUNLP, is a textual adversarial attack toolkit supporting sentence-, word-, and character-level attacks and attack evaluation.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--advbox",
+      "name": "AdvBox",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/advboxes/AdvBox",
+      "description": "AdvBox, from Baidu, is a toolbox for generating adversarial examples and testing the robustness of models across multiple deep-learning frameworks.",
+      "secondary_links": []
+    },
+    {
+      "id": "classic-adversarial-robustness-libraries--armory",
+      "name": "Armory",
+      "artifact_type": "framework-or-library",
+      "category": "Classic Adversarial Robustness Libraries",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/twosixlabs/armory",
+      "description": "Armory, from Two Six Technologies, is an adversarial-ML evaluation testbed built for the DARPA GARD program, orchestrating scenario-based robustness experiments.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--check-point-ai-red-teaming",
+      "name": "Check Point AI Red Teaming",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.checkpoint.com/ai-security/ai-red-teaming/",
+      "description": "Check Point AI Red Teaming, built from the Lakera acquisition, runs adversarial assessments against models and agents and draws attack intelligence from the Gandalf community.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--mindgard",
+      "name": "Mindgard",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://mindgard.ai",
+      "description": "Mindgard is an automated AI red-teaming and offensive-security platform that maps attack surfaces and continuously tests models, agents, applications, and infrastructure.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--hiddenlayer",
+      "name": "HiddenLayer",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.hiddenlayer.com/solutions/red-teaming",
+      "description": "HiddenLayer provides automated red teaming and attack simulation for generative, agentic, and predictive AI, alongside model scanning and runtime detection and response.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--cisco-ai-defense",
+      "name": "Cisco AI Defense",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.cisco.com/site/us/en/products/security/ai-defense/index.html",
+      "description": "Cisco AI Defense, built on the Robust Intelligence acquisition, provides algorithmic red teaming and runtime guardrails for enterprise AI applications.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--haize-labs",
+      "name": "Haize Labs",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://haizelabs.com/",
+      "description": "Haize Labs builds domain-specific agents with a proprietary Reliability Harness that combines simulation testing, adversarial red teaming, guardrails, and evaluation judges.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--prisma-airs-ai-red-teaming",
+      "name": "Prisma AIRS AI Red Teaming",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.paloaltonetworks.com/ai-security/ai-red-teaming.html",
+      "description": "Prisma AIRS AI Red Teaming, incorporating technology from Palo Alto Networks' Protect AI acquisition, runs adaptive adversarial assessments against AI applications and agents.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--adversa-ai",
+      "name": "Adversa AI",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://adversa.ai/ai-red-teaming-agentic-ai/",
+      "description": "Adversa AI provides continuous red teaming, threat modeling, and remediation for custom AI agents, applications, models, APIs, and MCP-connected infrastructure.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--f5-ai-red-team",
+      "name": "F5 AI Red Team",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://investors.f5.com/news/news-details/2026/F5-Labs-Sets-New-Standard-for-AI-Security-Benchmarking-With-Model-Risk-Leaderboards-and-Threat-Intelligence-02-26-2026/default.aspx",
+      "description": "F5 AI Red Team, built from the CalypsoAI acquisition, uses adversarial agents to test models and applications for prompt injection, jailbreaks, and other AI-specific vulnerabilities.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--zscaler-automated-ai-red-teaming",
+      "name": "Zscaler Automated AI Red Teaming",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.zscaler.com/products-and-solutions/continuous-automated-red-teaming",
+      "description": "Zscaler Automated AI Red Teaming, built from the SPLX acquisition, continuously tests GenAI applications with customizable probes and integrates findings into development and governance workflows.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--enkrypt-ai",
+      "name": "Enkrypt AI",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.enkryptai.com",
+      "description": "Enkrypt AI offers automated red teaming, risk assessment, and guardrails for LLM applications, with compliance-oriented reporting.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--gray-swan-shade",
+      "name": "Gray Swan Shade",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.grayswan.ai/solutions/platform/shade",
+      "description": "Shade runs adaptive adversarial campaigns against models, agents, guardrails, and deployment contexts using attack intelligence from Gray Swan's Arena research environment.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--repello-ai-artemis",
+      "name": "Repello AI ARTEMIS",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://repello.ai",
+      "description": "ARTEMIS is Repello AI's automated red-teaming engine for continuous adversarial testing of LLM applications, RAG pipelines, and agentic systems, with CI/CD integration.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--patronus-ai",
+      "name": "Patronus AI",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.patronus.ai",
+      "description": "Patronus AI's evaluation platform supports OWASP-aligned adversarial datasets, custom attack generation, evaluators, and simulated environments for testing AI models and agents.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--nemo-guardrails",
+      "name": "NeMo Guardrails",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "description": "NeMo Guardrails is NVIDIA's toolkit for programmable guardrails (via Colang) on conversational systems, with topic control, jailbreak detection, and fact-checking rails.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--guardrails-ai",
+      "name": "Guardrails AI",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/guardrails-ai/guardrails",
+      "description": "Guardrails AI is a Python framework for input/output validation, with a community Guardrails Hub of validators for injection, PII, and toxicity.",
+      "secondary_links": [
+        {
+          "label": "Guardrails Hub",
+          "url": "https://guardrailsai.com/hub"
+        }
+      ]
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--llamafirewall",
+      "name": "LlamaFirewall",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall",
+      "description": "LlamaFirewall, from Meta, is an open-source guardrail framework for agentic systems that combines PromptGuard, agent-alignment checks, and code-safety scanning.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--invariant-guardrails",
+      "name": "Invariant Guardrails",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/invariantlabs-ai/invariant",
+      "description": "Invariant Guardrails is an Apache-2.0 rule-based layer for agentic systems that enforces policies over messages and tool calls; Snyk acquired Invariant Labs in 2025.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--llama-guard",
+      "name": "Llama Guard",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-weights",
+      "status": "active",
+      "primary_url": "https://github.com/meta-llama/PurpleLlama",
+      "description": "Llama Guard is Meta's family of downloadable safety-classifier models for input and output moderation, released under Meta's community license as part of Purple Llama.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--prompt-guard",
+      "name": "Prompt Guard",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-weights",
+      "status": "active",
+      "primary_url": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+      "description": "Prompt Guard, from Meta, is an 86M-parameter downloadable classifier that flags prompt-injection and jailbreak strings in user inputs and retrieved content.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--shieldgemma",
+      "name": "ShieldGemma",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-weights",
+      "status": "active",
+      "primary_url": "https://huggingface.co/google/shieldgemma-2b",
+      "description": "ShieldGemma, from Google, is a family of Gemma-based safety-classifier models for filtering harmful content in prompts and responses.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--granite-guardian",
+      "name": "Granite Guardian",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/ibm-granite/granite-guardian",
+      "description": "Granite Guardian, from IBM, is an Apache-2.0 family of downloadable guardrail models for detecting harm, jailbreaks, and RAG groundedness and relevance risks.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--check-point-ai-agent-security",
+      "name": "Check Point AI Agent Security",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.checkpoint.com/ai-security/ai-agent-security/",
+      "description": "Check Point AI Agent Security, formerly Lakera Guard, enforces runtime policies across prompts, responses, external content, and agent tool calls.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--azure-ai-content-safety",
+      "name": "Azure AI Content Safety",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview",
+      "description": "Azure AI Content Safety provides content moderation plus Prompt Shields for direct and indirect prompt attacks, groundedness detection, and agent task-adherence checks.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--google-model-armor",
+      "name": "Google Model Armor",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://docs.cloud.google.com/model-armor/overview",
+      "description": "Model Armor is Google Cloud's service for screening LLM prompts and responses for injection, jailbreaks, sensitive data, malicious URLs, and harmful content.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--amazon-bedrock-guardrails",
+      "name": "Amazon Bedrock Guardrails",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://aws.amazon.com/bedrock/guardrails/",
+      "description": "Amazon Bedrock Guardrails applies configurable safety policies — content filters, denied topics, and contextual grounding checks — to Bedrock applications.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--openai-moderation",
+      "name": "OpenAI Moderation",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://developers.openai.com/api/docs/guides/moderation",
+      "description": "The OpenAI Moderation endpoint is a free hosted API for text and image safety classification.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--agentdojo",
+      "name": "AgentDojo",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/ethz-spylab/agentdojo",
+      "description": "AgentDojo, from ETH Zurich, is a dynamic environment for evaluating prompt-injection attacks and defenses against tool-using LLM agents on realistic tasks. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2406.13352"
+        }
+      ]
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--injecagent",
+      "name": "InjecAgent",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/uiuc-kang-lab/InjecAgent",
+      "description": "InjecAgent is a benchmark for indirect prompt-injection attacks against tool-integrated agents, measuring both direct harm and data-exfiltration outcomes. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2403.02691"
+        }
+      ]
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--agent-security-bench",
+      "name": "Agent Security Bench",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/agiresearch/ASB",
+      "description": "Agent Security Bench (ASB) formalizes and benchmarks a broad range of attacks and defenses on LLM agents, including direct/indirect injection, memory poisoning, and backdoors. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2410.02644"
+        }
+      ]
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--toolemu",
+      "name": "ToolEmu",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/ryoungj/ToolEmu",
+      "description": "ToolEmu uses an LLM to emulate tool execution so agents can be stress-tested for risky behavior in high-stakes scenarios without real side effects. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2309.15817"
+        }
+      ]
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--agentic-radar",
+      "name": "Agentic Radar",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/splx-ai/agentic-radar",
+      "description": "Agentic Radar, created by SPLX before its Zscaler acquisition, maps an agentic workflow's tools and dependencies and probes it for security weaknesses.",
+      "secondary_links": []
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--agentharm",
+      "name": "AgentHarm",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/ai-safety-institute/AgentHarm",
+      "description": "AgentHarm, from the UK AI Security Institute and Gray Swan AI, measures harmful multi-step agent behavior and jailbreak transfer; its license restricts use to improving AI safety and security. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2410.09024"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-robustness-benchmarks--jailbreakbench",
+      "name": "JailbreakBench",
+      "artifact_type": "benchmark",
+      "category": "Jailbreak and Robustness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/JailbreakBench/jailbreakbench",
+      "description": "JailbreakBench is an open robustness benchmark for jailbreaking, with a standardized dataset, evaluation pipeline, leaderboard, and artifact repository. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2404.01318"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-robustness-benchmarks--harmbench",
+      "name": "HarmBench",
+      "artifact_type": "benchmark",
+      "category": "Jailbreak and Robustness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/centerforaisafety/HarmBench",
+      "description": "HarmBench provides a standardized set of harmful behaviors and a validation classifier for comparing attack success and refusal robustness across methods. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2402.04249"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-robustness-benchmarks--strongreject",
+      "name": "StrongREJECT",
+      "artifact_type": "benchmark",
+      "category": "Jailbreak and Robustness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/alexandrasouly/strongreject",
+      "description": "StrongREJECT pairs forbidden prompts with an autograder that scores refusal, specificity, and convincingness to measure whether a jailbreak produces actionable harmful content. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2402.10260"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-robustness-benchmarks--jailbreakv-28k",
+      "name": "JailbreakV-28K",
+      "artifact_type": "benchmark",
+      "category": "Jailbreak and Robustness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/JailbreakV-28K/JailBreakV-28k",
+      "description": "JailbreakV-28K contains 20,000 text-based transfer attacks and 8,000 image-based attacks for testing jailbreak robustness in multimodal large language models. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2404.03027"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-robustness-benchmarks--sorry-bench",
+      "name": "SORRY-Bench",
+      "artifact_type": "benchmark",
+      "category": "Jailbreak and Robustness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/SORRY-Bench/sorry-bench",
+      "description": "SORRY-Bench evaluates refusal behavior with 440 balanced instructions across 44 unsafe topics and 20 linguistic augmentations. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2406.14598"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-and-robustness-benchmarks--h4rm3l",
+      "name": "h4rm3l",
+      "artifact_type": "benchmark",
+      "category": "Jailbreak and Robustness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/mdoumbouya/h4rm3l",
+      "description": "h4rm3l is a domain-specific language and benchmark for composing novel jailbreak attacks programmatically and measuring their success. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2408.04811"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--ailuminate",
+      "name": "AILuminate",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/mlcommons/ailuminate",
+      "description": "AILuminate is MLCommons' safety-benchmark family covering 12 hazard categories. Its Apache-2.0 repository provides an offline demo; practice and official tests use separately licensed or confidential prompt sets. Website",
+      "secondary_links": [
+        {
+          "label": "Website",
+          "url": "https://mlcommons.org/ailuminate/"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--decodingtrust",
+      "name": "DecodingTrust",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/AI-secure/DecodingTrust",
+      "description": "DecodingTrust assesses toxicity, stereotype bias, adversarial robustness, out-of-distribution robustness, privacy, machine ethics, and fairness (NeurIPS 2023 Outstanding Paper). Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2306.11698"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--trustllm",
+      "name": "TrustLLM",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/HowieHwong/TrustLLM",
+      "description": "TrustLLM benchmarks trustworthiness across truthfulness, safety, fairness, robustness, privacy, and machine ethics. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2401.05561"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--safetybench",
+      "name": "SafetyBench",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/thu-coai/SafetyBench",
+      "description": "SafetyBench is a multiple-choice LLM safety evaluation across seven harm categories in English and Chinese. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2309.07045"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--do-not-answer",
+      "name": "Do-Not-Answer",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/Libr-AI/do-not-answer",
+      "description": "Do-Not-Answer is a dataset of questions responsible models should refuse, with an evaluation protocol for safeguard effectiveness. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2308.13387"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--xstest",
+      "name": "XSTest",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/paul-rottger/xstest",
+      "description": "XSTest tests exaggerated safety (over-refusal) using safe prompts that superficially resemble unsafe ones. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2308.01263"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--toxigen",
+      "name": "ToxiGen",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/toxigen/toxigen-data",
+      "description": "ToxiGen is a publicly downloadable dataset of synthetic implicit toxic and benign statements mentioning 13 minority groups; its dataset card specifies no license, and Microsoft has archived the original code repository. Code · Paper",
+      "secondary_links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/microsoft/TOXIGEN"
+        },
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2203.09509"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--wmdp",
+      "name": "WMDP",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/centerforaisafety/wmdp",
+      "description": "WMDP (Weapons of Mass Destruction Proxy) measures hazardous knowledge in biosecurity, cybersecurity, and chemistry as a proxy for dangerous capabilities. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2403.03218"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--cyberseceval",
+      "name": "CyberSecEval",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks",
+      "description": "CyberSecEval, part of Meta's Purple Llama project, benchmarks cybersecurity risks and capabilities including insecure code generation, prompt injection, cyberattack helpfulness, and defensive tasks.",
+      "secondary_links": []
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--salad-bench",
+      "name": "SALAD-Bench",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/OpenSafetyLab/SALAD-BENCH",
+      "description": "SALAD-Bench is a hierarchical safety benchmark for LLMs, attacks, and defenses, paired with an MD-Judge evaluator across a structured harm taxonomy. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2402.05044"
+        }
+      ]
+    },
+    {
+      "id": "safety-harm-and-trustworthiness-benchmarks--beavertails",
+      "name": "BeaverTails",
+      "artifact_type": "benchmark",
+      "category": "Safety, Harm, and Trustworthiness Benchmarks",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/PKU-Alignment/beavertails",
+      "description": "BeaverTails, from PKU-Alignment, is a QA dataset with separate helpfulness and harmlessness annotations for safety alignment research. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2307.04657"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--in-the-wild-jailbreak-prompts",
+      "name": "In-The-Wild Jailbreak Prompts",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/verazuo/jailbreak_llms",
+      "description": "In-The-Wild Jailbreak Prompts collects 15,000+ jailbreak prompts, including DAN-family prompts, from public platforms for studying attacks observed in practice. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2308.03825"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--advbench",
+      "name": "AdvBench",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench",
+      "description": "AdvBench is the harmful-behaviors and harmful-strings dataset introduced with GCG as a target set for jailbreak research. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2307.15043"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--hackaprompt-dataset",
+      "name": "HackAPrompt Dataset",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset",
+      "description": "HackAPrompt contains 600,000+ adversarial prompts submitted to a global prompt-hacking competition; the MIT-licensed dataset requires accepting Hugging Face access conditions. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2311.16119"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--harmfulqa",
+      "name": "HarmfulQA",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/declare-lab/HarmfulQA",
+      "description": "HarmfulQA, from DeCLaRe Lab, is an Apache-2.0 dataset of harmful questions and red-teaming conversations created with the Chain of Utterances method. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2308.09662"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--toxicchat",
+      "name": "ToxicChat",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://huggingface.co/datasets/lmsys/toxic-chat",
+      "description": "ToxicChat, from LMSYS, contains toxicity and jailbreak labels for real user queries to a chatbot; prompts and outputs are licensed CC-BY-NC-4.0. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2310.17389"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--mm-safetybench",
+      "name": "MM-SafetyBench",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://github.com/isXinLiu/MM-SafetyBench",
+      "description": "MM-SafetyBench evaluates multimodal-LLM safety against query-relevant image-based jailbreaks; its dataset is restricted to noncommercial research under CC-BY-NC-4.0. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2311.17600"
+        }
+      ]
+    },
+    {
+      "id": "attack-datasets-and-prompt-corpora--forbiddenquestions",
+      "name": "ForbiddenQuestions",
+      "artifact_type": "dataset",
+      "category": "Attack Datasets and Prompt Corpora",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/verazuo/jailbreak_llms/tree/main/data/forbidden_question",
+      "description": "ForbiddenQuestions pairs policy-violating questions with jailbreak prompts to measure attack success across scenarios. Paper",
+      "secondary_links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2308.03825"
+        }
+      ]
+    },
+    {
+      "id": "model-and-ml-supply-chain-security-scanning--modelscan",
+      "name": "ModelScan",
+      "artifact_type": "model",
+      "category": "Model and ML Supply-Chain Security Scanning",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/protectai/modelscan",
+      "description": "ModelScan scans model files, including pickle, HDF5, and SavedModel formats, for code that executes on load and other model-serialization threats.",
+      "secondary_links": []
+    },
+    {
+      "id": "model-and-ml-supply-chain-security-scanning--picklescan",
+      "name": "picklescan",
+      "artifact_type": "model",
+      "category": "Model and ML Supply-Chain Security Scanning",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/mmaitre314/picklescan",
+      "description": "picklescan analyzes Python pickle files for suspicious imports and opcodes, and is integrated into Hugging Face Hub's malware scanning.",
+      "secondary_links": []
+    },
+    {
+      "id": "model-and-ml-supply-chain-security-scanning--fickling",
+      "name": "Fickling",
+      "artifact_type": "model",
+      "category": "Model and ML Supply-Chain Security Scanning",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/trailofbits/fickling",
+      "description": "Fickling, from Trail of Bits, is a decompiler, static analyzer, and bytecode rewriter for pickle files, used to detect and craft malicious payloads for testing.",
+      "secondary_links": []
+    },
+    {
+      "id": "model-and-ml-supply-chain-security-scanning--safetensors",
+      "name": "safetensors",
+      "artifact_type": "model",
+      "category": "Model and ML Supply-Chain Security Scanning",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/safetensors/safetensors",
+      "description": "safetensors is a safe serialization format for model weights that avoids the arbitrary-code-execution behavior of pickle-based checkpoints.",
+      "secondary_links": []
+    },
+    {
+      "id": "model-and-ml-supply-chain-security-scanning--hiddenlayer-model-scanner",
+      "name": "HiddenLayer Model Scanner",
+      "artifact_type": "model",
+      "category": "Model and ML Supply-Chain Security Scanning",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.hiddenlayer.com/solutions/model-scanning",
+      "description": "HiddenLayer's Model Scanner statically inspects model artifacts for malware, backdoors, and integrity issues before they enter production.",
+      "secondary_links": []
+    },
+    {
+      "id": "model-and-ml-supply-chain-security-scanning--prisma-airs-ai-model-security",
+      "name": "Prisma AIRS AI Model Security",
+      "artifact_type": "model",
+      "category": "Model and ML Supply-Chain Security Scanning",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.paloaltonetworks.com/ai-security/ai-model-security.html",
+      "description": "Prisma AIRS AI Model Security, incorporating Protect AI technology, scans model architecture, weights, operators, dependencies, and embedded code before deployment.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--owasp-top-10-for-llm-applications",
+      "name": "OWASP Top 10 for LLM Applications",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://genai.owasp.org",
+      "description": "The OWASP Top 10 for LLM Applications is a community-maintained risk list covering prompt injection, sensitive-information disclosure, supply-chain weaknesses, and other GenAI application risks.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--mitre-atlas",
+      "name": "MITRE ATLAS",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://atlas.mitre.org",
+      "description": "MITRE ATLAS is an ATT&CK-style knowledge base of adversary tactics and techniques against AI systems, backed by real-world case studies.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--owasp-ml-security-top-10",
+      "name": "OWASP ML Security Top 10",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://owasp.org/www-project-machine-learning-security-top-10/",
+      "description": "The OWASP Machine Learning Security Top 10 catalogs risks to classic ML systems, such as data poisoning and model inversion.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--ai-vulnerability-database",
+      "name": "AI Vulnerability Database",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://avidml.org",
+      "description": "AVID is a public database and taxonomy of AI failure modes and vulnerabilities, providing a common reporting schema for the community.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--ai-incident-database",
+      "name": "AI Incident Database",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://incidentdatabase.ai",
+      "description": "The AI Incident Database, from the Responsible AI Collaborative, indexes reported real-world AI harms and near-misses to inform threat modeling.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--nist-ai-risk-management-framework",
+      "name": "NIST AI Risk Management Framework",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "description": "The NIST AI RMF is a voluntary U.S. framework for governing AI risk, with a Generative AI profile addressing risks specific to generative systems.",
+      "secondary_links": []
+    },
+    {
+      "id": "standards-taxonomies-and-vulnerability-databases--google-secure-ai-framework-saif",
+      "name": "Google Secure AI Framework (SAIF)",
+      "artifact_type": "standard-or-resource",
+      "category": "Standards, Taxonomies, and Vulnerability Databases",
+      "availability": "public-resource",
+      "status": "active",
+      "primary_url": "https://safety.google/safety/saif/",
+      "description": "SAIF is Google's published conceptual framework and risk map for securing AI systems across the development and deployment lifecycle.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--counterfit",
+      "name": "Counterfit",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://github.com/Azure/counterfit",
+      "description": "Counterfit remains public and unarchived, but its latest release dates to November 2022 and its latest functional code changes to April 2023; PyRIT is Microsoft's current generative-AI red-teaming framework.",
+      "secondary_links": [
+        {
+          "label": "PyRIT",
+          "url": "https://github.com/microsoft/PyRIT"
+        }
+      ]
+    },
+    {
+      "id": "discontinued-and-historical-tools--llmfuzzer",
+      "name": "LLMFuzzer",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://github.com/mnns/LLMFuzzer",
+      "description": "LLMFuzzer's maintainers explicitly mark the project as unmaintained and invite users to fork it.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--vigil",
+      "name": "Vigil",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://github.com/deadbits/vigil-llm",
+      "description": "Vigil is not formally archived, but its latest release was in December 2023, its latest code update was in January 2024, and its README describes it as alpha research software.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--rebuff",
+      "name": "Rebuff",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://github.com/protectai/rebuff",
+      "description": "Protect AI archived Rebuff in May 2025; the repository remains available under Apache-2.0.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--llm-guard",
+      "name": "LLM Guard",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://github.com/protectai/llm-guard",
+      "description": "Protect AI archived LLM Guard in July 2026 and states that the project and associated models are no longer developed or maintained.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--robust-intelligence",
+      "name": "Robust Intelligence",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.cisco.com/site/us/en/products/security/ai-defense/robust-intelligence-is-part-of-cisco/index.html",
+      "description": "Cisco acquired Robust Intelligence in October 2024; its algorithmic red teaming is now part of Cisco AI Defense.",
+      "secondary_links": [
+        {
+          "label": "Cisco AI Defense",
+          "url": "https://www.cisco.com/site/us/en/products/security/ai-defense/index.html"
+        }
+      ]
+    },
+    {
+      "id": "discontinued-and-historical-tools--prompt-security",
+      "name": "Prompt Security",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.sentinelone.com/platform/securing-ai-prompt/",
+      "description": "SentinelOne completed its acquisition of Prompt Security in 2025; Prompt Security now operates within the SentinelOne Singularity platform.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--protect-ai",
+      "name": "Protect AI",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.paloaltonetworks.com/company/press/2025/palo-alto-networks-completes-acquisition-of-protect-ai",
+      "description": "Palo Alto Networks acquired Protect AI in July 2025 and integrated its model scanning, red teaming, and runtime technology into Prisma AIRS.",
+      "secondary_links": [
+        {
+          "label": "Prisma AIRS",
+          "url": "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security"
+        }
+      ]
+    },
+    {
+      "id": "discontinued-and-historical-tools--calypsoai",
+      "name": "CalypsoAI",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://investors.f5.com/news/news-details/2025/F5-to-Acquire-CalypsoAI-to-Bring-Advanced-AI-Guardrails-to-Large-Enterprises-09-11-2025/default.aspx",
+      "description": "F5 announced its agreement to acquire CalypsoAI in September 2025; F5 now describes F5 AI Red Team and F5 AI Guardrails as generally available products stemming from the acquisition.",
+      "secondary_links": [
+        {
+          "label": "F5 AI Red Team and F5 AI Guardrails",
+          "url": "https://investors.f5.com/news/news-details/2026/F5-Labs-Sets-New-Standard-for-AI-Security-Benchmarking-With-Model-Risk-Leaderboards-and-Threat-Intelligence-02-26-2026/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "discontinued-and-historical-tools--splx",
+      "name": "SPLX",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.zscaler.com/press/zscaler-secures-enterprise-ai-lifecycle-acquisition-innovative-ai-security-pioneer-splx",
+      "description": "Zscaler acquired SPLX in November 2025 and integrated its discovery, automated red teaming, and governance technology into Zscaler AI Security.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--lakera",
+      "name": "Lakera",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/",
+      "description": "Check Point completed its acquisition of Lakera in October 2025; Lakera Red and Lakera Guard were succeeded by Check Point AI Red Teaming and AI Agent Security.",
+      "secondary_links": []
+    },
+    {
+      "id": "discontinued-and-historical-tools--invariant-labs",
+      "name": "Invariant Labs",
+      "artifact_type": "historical",
+      "category": "Discontinued and Historical Tools",
+      "availability": "discontinued",
+      "status": "discontinued",
+      "primary_url": "https://snyk.io/news/snyk-acquires-invariant-labs-to-accelerate-agentic-ai-security-innovation/",
+      "description": "Snyk acquired Invariant Labs in June 2025; the Apache-2.0 Invariant Guardrails repository remains public while its technology contributes to Snyk's AI security products and research.",
+      "secondary_links": []
+    }
+  ]
+}

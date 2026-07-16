@@ -1,0 +1,35 @@
+# The Comprehensive List of AI Red Teaming Tools
+
+> A curated, source-linked directory of open-source and commercial tools for adversarially testing LLMs, RAG pipelines, AI agents, multimodal models, and classic machine-learning systems. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
+
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public artifacts. There is no paid placement. This independent directory is maintained by aglio-lab, and every entry follows the same evidence rules.
+
+## Main content
+
+- [Full list](https://raw.githubusercontent.com/aglio-lab/ai-red-teaming-tools/main/README.md): 117 source-linked entries across 14 catalog sections
+- [JSON catalog](https://raw.githubusercontent.com/aglio-lab/ai-red-teaming-tools/main/data/tools.json): structured entity records
+- [CSV catalog](https://raw.githubusercontent.com/aglio-lab/ai-red-teaming-tools/main/data/tools.csv): flat machine-readable index
+- [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/ai-red-teaming-tools/main/MAINTENANCE.md): review schedule and evidence rules
+
+## Key categories
+
+- Red Teaming Platforms and Frameworks (9 entries)
+- LLM Vulnerability Scanners (5 entries)
+- Jailbreak and Adversarial Attack Techniques (9 entries)
+- Prompt Injection and Indirect Injection (6 entries)
+- Classic Adversarial Robustness Libraries (7 entries)
+- Commercial AI Red Teaming Platforms (13 entries)
+- Guardrails and Runtime Defenses (13 entries)
+- Agent Security and Tool-Use Testing (6 entries)
+- Jailbreak and Robustness Benchmarks (6 entries)
+- Safety, Harm, and Trustworthiness Benchmarks (11 entries)
+- Attack Datasets and Prompt Corpora (7 entries)
+- Model and ML Supply-Chain Security Scanning (6 entries)
+- Standards, Taxonomies, and Vulnerability Databases (7 entries)
+- Discontinued and Historical Tools (12 entries)
+
+## Citation
+
+- [CITATION.cff](https://raw.githubusercontent.com/aglio-lab/ai-red-teaming-tools/main/CITATION.cff)
+- Cite as: “The Comprehensive List of AI Red Teaming Tools” (2026). GitHub. https://github.com/aglio-lab/ai-red-teaming-tools
+- Cite an individual tool using its own repository, documentation, or paper.
