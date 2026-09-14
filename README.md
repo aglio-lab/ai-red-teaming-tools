@@ -169,6 +169,7 @@ An **LLM vulnerability scanner** points a fixed or extensible battery of probes 
 | [Google Model Armor](https://docs.cloud.google.com/model-armor/overview)                               | 🔒 Commercial   | Model Armor is Google Cloud's service for screening LLM prompts and responses for injection, jailbreaks, sensitive data, malicious URLs, and harmful content.                    |
 | [Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/)                                | 🔒 Commercial   | Amazon Bedrock Guardrails applies configurable safety policies — content filters, denied topics, and contextual grounding checks — to Bedrock applications.                      |
 | [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation)                          | 🔒 Commercial   | The OpenAI Moderation endpoint is a free hosted API for text and image safety classification.                                                                                    |
+| [Speakeasy](https://www.speakeasy.com/product/ai-control-plane)                                       | 🔒 Commercial   | Speakeasy is an enterprise AI control plane that enforces access policies for agents and MCP servers, with auditability for access events and tool actions.                     |
 
 ## Agent Security and Tool-Use Testing
 
