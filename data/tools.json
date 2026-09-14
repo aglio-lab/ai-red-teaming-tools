@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/ai-red-teaming-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 117,
+  "entry_count": 118,
   "category_count": 14,
   "categories": {
     "Red Teaming Platforms and Frameworks": 9,
@@ -12,7 +12,7 @@
     "Prompt Injection and Indirect Injection": 6,
     "Classic Adversarial Robustness Libraries": 7,
     "Commercial AI Red Teaming Platforms": 13,
-    "Guardrails and Runtime Defenses": 13,
+    "Guardrails and Runtime Defenses": 14,
     "Agent Security and Tool-Use Testing": 6,
     "Jailbreak and Robustness Benchmarks": 6,
     "Safety, Harm, and Trustworthiness Benchmarks": 11,
@@ -796,6 +796,17 @@
       "status": "active",
       "primary_url": "https://developers.openai.com/api/docs/guides/moderation",
       "description": "The OpenAI Moderation endpoint is a free hosted API for text and image safety classification.",
+      "secondary_links": []
+    },
+    {
+      "id": "guardrails-and-runtime-defenses--speakeasy",
+      "name": "Speakeasy",
+      "artifact_type": "tool",
+      "category": "Guardrails and Runtime Defenses",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.speakeasy.com/product/ai-control-plane",
+      "description": "Speakeasy is an enterprise AI control plane that enforces access policies for agents and MCP servers, with auditability for access events and tool actions.",
       "secondary_links": []
     },
     {
