@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/ai-red-teaming-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 117,
+  "entry_count": 118,
   "category_count": 14,
   "categories": {
     "Red Teaming Platforms and Frameworks": 9,
@@ -11,7 +11,7 @@
     "Jailbreak and Adversarial Attack Techniques": 9,
     "Prompt Injection and Indirect Injection": 6,
     "Classic Adversarial Robustness Libraries": 7,
-    "Commercial AI Red Teaming Platforms": 13,
+    "Commercial AI Red Teaming Platforms": 14,
     "Guardrails and Runtime Defenses": 13,
     "Agent Security and Tool-Use Testing": 6,
     "Jailbreak and Robustness Benchmarks": 6,
@@ -538,6 +538,17 @@
       "status": "active",
       "primary_url": "https://www.hiddenlayer.com/solutions/red-teaming",
       "description": "HiddenLayer provides automated red teaming and attack simulation for generative, agentic, and predictive AI, alongside model scanning and runtime detection and response.",
+      "secondary_links": []
+    },
+    {
+      "id": "commercial-ai-red-teaming-platforms--agent-torture-lab",
+      "name": "Agent Torture Lab",
+      "artifact_type": "platform",
+      "category": "Commercial AI Red Teaming Platforms",
+      "availability": "commercial",
+      "status": "active",
+      "primary_url": "https://www.agenttorture.com/",
+      "description": "Agent Torture Lab is a commercial AI-agent testing service that probes customer-support bots for policy, privacy, and escalation failures and returns evidence-linked transcripts with a fix plan and retest plan.",
       "secondary_links": []
     },
     {
