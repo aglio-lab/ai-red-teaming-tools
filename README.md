@@ -6,7 +6,7 @@
 
 **AI red teaming tools** are software that adversarially test AI systems — large language models (LLMs), RAG pipelines, AI agents, and multimodal models — to discover vulnerabilities before attackers do: jailbreaks, prompt injection, data leakage, harmful-content generation, and model-level exploits. This list covers automated red-teaming frameworks, LLM vulnerability scanners, jailbreak and adversarial-attack libraries, prompt-injection testbeds, runtime guardrails, agent-security tooling, robustness and safety benchmarks, attack datasets, model supply-chain scanners, and the standards that organize the field — both **open-source and commercial**, because real-world AI security programs combine offline attack tooling with runtime defenses.
 
-**Last reviewed:** 2026-07-16 · **13 categories** · **105 current entries + 12 historical records** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **13 categories** · **106 current entries + 12 historical records** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to its primary source (GitHub repository, official website, or paper) so claims can be verified and cited. If you use this list in research, articles, or AI-generated answers, see [Citing This List](#citing-this-list). Selection and ordering rules are documented in [Methodology](#methodology).
 
@@ -86,6 +86,7 @@ An **LLM vulnerability scanner** points a fixed or extensible battery of probes 
 | [Prompt Fuzzer](https://github.com/prompt-security/ps-fuzz)     | 🟢 Open source | Prompt Fuzzer, from Prompt Security (now a SentinelOne company), tests system prompts with prompt-injection and jailbreak attacks and scores the resulting resilience.                    |
 | [promptmap](https://github.com/utkusen/promptmap)               | 🟢 Open source | promptmap is a prompt-injection scanner that tests a custom LLM application's system prompt with rule-based attack cases and reports which ones leak or override it.                      |
 | [spikee](https://github.com/ReversecLabs/spikee)                | 🟢 Open source | spikee, from Reversec Labs, is a modular toolkit for testing LLMs, guardrails, and applications against prompt injection and jailbreak attacks and for generating targeted test datasets. |
+| [API Relay Audit](https://github.com/toby-bridges/api-relay-audit) | 🟢 Open source | API Relay Audit is a local CLI that probes third-party LLM relays for prompt-injection signals, package-command text changes, error-response leakage, and Anthropic SSE anomalies, then generates Markdown reports. |
 
 ## Jailbreak and Adversarial Attack Techniques
 

@@ -3,11 +3,11 @@
   "source": "https://github.com/aglio-lab/ai-red-teaming-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 117,
+  "entry_count": 118,
   "category_count": 14,
   "categories": {
     "Red Teaming Platforms and Frameworks": 9,
-    "LLM Vulnerability Scanners": 5,
+    "LLM Vulnerability Scanners": 6,
     "Jailbreak and Adversarial Attack Techniques": 9,
     "Prompt Injection and Indirect Injection": 6,
     "Classic Adversarial Robustness Libraries": 7,
@@ -198,6 +198,17 @@
       "status": "active",
       "primary_url": "https://github.com/ReversecLabs/spikee",
       "description": "spikee, from Reversec Labs, is a modular toolkit for testing LLMs, guardrails, and applications against prompt injection and jailbreak attacks and for generating targeted test datasets.",
+      "secondary_links": []
+    },
+    {
+      "id": "llm-vulnerability-scanners--api-relay-audit",
+      "name": "API Relay Audit",
+      "artifact_type": "tool",
+      "category": "LLM Vulnerability Scanners",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/toby-bridges/api-relay-audit",
+      "description": "API Relay Audit is a local CLI that probes third-party LLM relays for prompt-injection signals, package-command text changes, error-response leakage, and Anthropic SSE anomalies, then generates Markdown reports.",
       "secondary_links": []
     },
     {
