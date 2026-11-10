@@ -3,7 +3,7 @@
   "source": "https://github.com/aglio-lab/ai-red-teaming-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 117,
+  "entry_count": 118,
   "category_count": 14,
   "categories": {
     "Red Teaming Platforms and Frameworks": 9,
@@ -13,7 +13,7 @@
     "Classic Adversarial Robustness Libraries": 7,
     "Commercial AI Red Teaming Platforms": 13,
     "Guardrails and Runtime Defenses": 13,
-    "Agent Security and Tool-Use Testing": 6,
+    "Agent Security and Tool-Use Testing": 7,
     "Jailbreak and Robustness Benchmarks": 6,
     "Safety, Harm, and Trustworthiness Benchmarks": 11,
     "Attack Datasets and Prompt Corpora": 7,
@@ -888,6 +888,17 @@
           "url": "https://arxiv.org/abs/2410.09024"
         }
       ]
+    },
+    {
+      "id": "agent-security-and-tool-use-testing--memory-poisoning-lab",
+      "name": "Memory Poisoning Lab",
+      "artifact_type": "tool",
+      "category": "Agent Security and Tool-Use Testing",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/RishabhPande/memory-poison-lab",
+      "description": "Memory Poisoning Lab demonstrates persistent-memory poisoning, origin-aware defenses and repair on local backends using synthetic targets and a scripted deterministic agent, not real-LLM safety measurements.",
+      "secondary_links": []
     },
     {
       "id": "jailbreak-and-robustness-benchmarks--jailbreakbench",
