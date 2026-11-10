@@ -182,6 +182,7 @@ An **LLM vulnerability scanner** points a fixed or extensible battery of probes 
 | [ToolEmu](https://github.com/ryoungj/ToolEmu)                              | 🟢 Open source      | ToolEmu uses an LLM to emulate tool execution so agents can be stress-tested for risky behavior in high-stakes scenarios without real side effects. [Paper](https://arxiv.org/abs/2309.15817)                                              |
 | [Agentic Radar](https://github.com/splx-ai/agentic-radar)                  | 🟢 Open source      | Agentic Radar, created by SPLX before its Zscaler acquisition, maps an agentic workflow's tools and dependencies and probes it for security weaknesses.                                                                                    |
 | [AgentHarm](https://huggingface.co/datasets/ai-safety-institute/AgentHarm) | 📖 Public benchmark | AgentHarm, from the UK AI Security Institute and Gray Swan AI, measures harmful multi-step agent behavior and jailbreak transfer; its license restricts use to improving AI safety and security. [Paper](https://arxiv.org/abs/2410.09024) |
+| [Memory Poisoning Lab](https://github.com/RishabhPande/memory-poison-lab) | 🟢 Open source | Memory Poisoning Lab demonstrates persistent-memory poisoning, origin-aware defenses and repair on local backends using synthetic targets and a scripted deterministic agent, not real-LLM safety measurements. |
 
 ## Jailbreak and Robustness Benchmarks
 
